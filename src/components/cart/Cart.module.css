@@ -1,0 +1,135 @@
+.container {
+  max-width: 100vw;
+  min-height: 100vh;
+
+  padding: 2rem;
+
+  display: flex;
+  gap: 0.5rem;
+}
+.container .left {
+  box-shadow: 0px 0px 5px rgb(0, 0, 0, 0.6);
+  width: 900px;
+}
+.container .left table {
+  width: 100%;
+  padding: 0.3rem;
+}
+
+.container .left table tbody tr {
+  width: 100%;
+  display: flex;
+
+  margin-left: 5px;
+  padding: 0 2rem;
+}
+.container .left table tbody tr:nth-child(1) {
+  border-bottom: 1px solid rgb(155, 153, 153);
+}
+.container .left table tbody tr td,
+th {
+  width: 60px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+.container .left table tbody tr:nth-child(odd) {
+  background-color: rgb(238, 238, 235);
+}
+.container .left .product {
+  display: flex;
+  align-items: center;
+  flex: 1.5;
+  gap: 0.3rem;
+}
+.container .left .price,
+.quantity,
+.subtotal {
+  flex: 1;
+}
+.container .left .product img {
+  width: 60px;
+  height: 100%;
+}
+.container .left .product span {
+  cursor: pointer;
+  color: red;
+  font-weight: 600;
+}
+.container .left table .quantity div {
+  box-shadow: 0px 0px 5px rgb(0, 0, 0, 0.6);
+  width: 80px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+}
+.container .left table .quantity div button {
+  background-color: transparent;
+  width: 100%;
+  border-radius: 50%;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.container .left table .quantity div span {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container .right {
+  box-shadow: 0px 0px 5px rgb(0, 0, 0, 0.6);
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1rem;
+  height: fit-content;
+}
+.container .right h1 {
+  font-weight: 600;
+}
+.container .right div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 21px;
+  font-weight: 500;
+}
+.container .right .subtotal {
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid rgb(141, 138, 138);
+}
+.container .right button {
+  height: 38px;
+  width: 100%;
+  border: none;
+  background-color: blue;
+  color: white;
+  border-radius: 20px;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
+}
+.container .right button:hover {
+  background-color: white;
+  border: 1px solid blue;
+  color: blue;
+}
+
+@media screen and (max-width: 700px) {
+  .container {
+    flex-direction: column;
+  }
+  .container .left {
+    width: 700px;
+  }
+  .container .left table {
+    width: 700px;
+    overflow-x: scroll;
+  }
+}

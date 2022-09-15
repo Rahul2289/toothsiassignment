@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1,
+    "name": "ninja Hooded",
+    "image": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/41vABBIr6ZL._UX679_.jpg",
+    "color": "white",
+    "size": "xl",
+    "inStock": true,
+    "price": 640,
+    "category": "hoodies",
+    "description": "Care Instructions: Hand Wash Only.Fit Type: Modern. Fabric: 70% Polyester 30% Cotton.Sleeve: Full Sleeve.Neck Style: Hooded.Closure: No Closure; Pattern: Solid. Age Range Description: Adult; Closure Type: Pull On"
+  },
+  {
+    "id": 2,
+    "name": "venom Hooded",
+    "image": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51rdI-cVnNL._SX679._SX._UX._SY._UY_.jpg",
+    "color": "black",
+    "size": "m",
+    "inStock": false,
+    "price": 590,
+    "category": "hoodies",
+    "description": "Care Instructions: Hand Wash Only.Fit Type: Modern. Fabric: 70% Polyester 30% Cotton.Sleeve: Full Sleeve.Neck Style: Hooded.Closure: No Closure; Pattern: Solid. Age Range Description: Adult; Closure Type: Pull On"
+  },
+  {
+    "id": 3,
+    "name": "logo Hooded",
+    "image": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/614NxqqEEoL._SX679._SX._UX._SY._UY_.jpg",
+    "color": "orange",
+    "size": "xl",
+    "inStock": true,
+    "price": 770,
+    "category": "hoodies",
+    "description": "Care Instructions: Hand Wash Only.Fit Type: Modern. Fabric: 70% Polyester 30% Cotton.Sleeve: Full Sleeve.Neck Style: Hooded.Closure: No Closure; Pattern: Solid. Age Range Description: Adult; Closure Type: Pull On"
+  },
+  {
+    "id": 4,
+    "name": "spider Hooded",
+    "image": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/7143JhvzwpL._SX679._SX._UX._SY._UY_.jpg",
+    "color": "blue",
+    "size": "s",
+    "inStock": true,
+    "price": 870,
+    "category": "hoodies",
+    "description": "Care Instructions: Hand Wash Only.Fit Type: Modern. Fabric: 70% Polyester 30% Cotton.Sleeve: Full Sleeve.Neck Style: Hooded.Closure: No Closure; Pattern: Solid. Age Range Description: Adult; Closure Type: Pull On"
+  },
+  {
+    "id": 5,
+    "name": "Favoroski",
+    "image": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/71DC8xuIymL._UY741_.jpg",
+    "color": "black",
+    "size": "xl",
+    "inStock": true,
+    "price": 1000,
+    "category": "jacket",
+    "description": "Care Instructions: Dry Clean Only. Fit Type: Slim Fit. Fit Type: Slim Fit.SIZE GUIDE : Waist coat/Blazer size should be 6 Inch Over Your Jeans Waist Size (For Eg : If you Wear a 30 size Jeans your Waist coat size should be 36). Material: Cotton Blend with Polyester Lining. POCKETS: 1 Chest Pocket & 2 Side Pockets; BUTTONS:5.Suitable for: Business Work, Date, Party, Weddings, Engagement, Gift for Families, Friends and Boyfriend.Please Choose the Right Size Based on Your Chest Measurement from the Size Chart in Description"
+  },
+  {
+    "id": 6,
+    "name": "Shaftesbury London",
+    "image": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/61UvpD5bkIL._UY741_.jpg",
+    "color": "black",
+    "size": "xl",
+    "inStock": false,
+    "price": 999,
+    "category": "jacket",
+    "description": "Care Instructions: Dry Clean Only. Fit Type: Slim Fit. Fit Type: Slim Fit.SIZE GUIDE : Waist coat/Blazer size should be 6 Inch Over Your Jeans Waist Size (For Eg : If you Wear a 30 size Jeans your Waist coat size should be 36). Material: Cotton Blend with Polyester Lining. POCKETS: 1 Chest Pocket & 2 Side Pockets; BUTTONS:5.Suitable for: Business Work, Date, Party, Weddings, Engagement, Gift for Families, Friends and Boyfriend.Please Choose the Right Size Based on Your Chest Measurement from the Size Chart in Description"
+  },
+  {
+    "id": 7,
+    "name": "Peter England",
+    "image": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51JPK0qKCnL._UY550_.jpg",
+    "color": "white",
+    "size": "m",
+    "inStock": true,
+    "price": 1999,
+    "category": "jacket",
+    "description": "Care Instructions: Dry Clean Only. Fit Type: Slim Fit. Fit Type: Slim Fit.SIZE GUIDE : Waist coat/Blazer size should be 6 Inch Over Your Jeans Waist Size (For Eg : If you Wear a 30 size Jeans your Waist coat size should be 36). Material: Cotton Blend with Polyester Lining. POCKETS: 1 Chest Pocket & 2 Side Pockets; BUTTONS:5.Suitable for: Business Work, Date, Party, Weddings, Engagement, Gift for Families, Friends and Boyfriend.Please Choose the Right Size Based on Your Chest Measurement from the Size Chart in Description"
+  }
+]

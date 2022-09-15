@@ -1,0 +1,71 @@
+.container {
+  width: 100%;
+  height: 64px;
+
+  margin: 2rem 0;
+  padding: 0 1rem;
+
+  display: flex;
+  align-items: center;
+}
+.container .left {
+  margin-right: auto;
+
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.container .left select {
+  padding: 0.2rem;
+  cursor: pointer;
+}
+.container .left select option {
+  height: 500px;
+}
+.container .left button {
+  border: none;
+  outline: none;
+  background: none;
+
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+
+  color: blue;
+  cursor: pointer;
+}
+.container .right {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.container .right input {
+  padding: 0.2rem;
+  outline: none;
+
+  width: 100%;
+}
+
+.container .right button {
+  border: none;
+  outline: none;
+
+  width: 150px;
+  padding: 0.4rem 0.2rem;
+  color: white;
+  background: blue;
+
+  cursor: pointer;
+}
+@media screen and (max-width: 700px) {
+  .container {
+    height: 80px;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 0.5rem;
+    justify-content: center;
+  }
+  .container .left {
+    margin: 0;
+  }
+}
